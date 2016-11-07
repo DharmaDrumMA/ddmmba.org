@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="38" viewBox="0 0 47 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="padding-x" class="cls-1" d="M-2-2H49V40H-2V-2ZM0,0H47V38H0V0ZM9,1H38V37H9V1Z"/>
+</svg>

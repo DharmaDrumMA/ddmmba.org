@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="47" height="38" viewBox="0 0 47 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-rule: evenodd;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect x="0.5" y="1" width="47" height="38"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <path id="Rectangle_7_copy_3" data-name="Rectangle 7 copy 3" class="cls-1" d="M41,10H5V8H41v2ZM39,7.071h0V0h2V8H39V7.071ZM39,8L23,2.129l1.265-.464L39,7.071V8h0ZM7,8H7V7.071L21.735,1.665,23,2.129ZM39,8h0ZM5,8H5V0H7V8H5ZM17-.072V-1l6,2.2-1.265.464ZM29-1v0.929L24.265,1.665,23,1.2ZM15,14h2v9h2v1H18v1H17v1H15V25H14V24H13V23h2V14Zm7,0h2V33h2v1H25v1H24v1H22V35H21V34H20V33h2V14Zm7,0h2v9h2v1H32v1H31v1H29V25H28V24H27V23h2V14Z" transform="translate(0.5 1)"/>
+  </g>
+</svg>

@@ -1,0 +1,44 @@
+<?php
+/**
+ * Add custom menu meta box Model
+ *
+ * 
+ * @package    auxin
+ * @author     averta (c) 2010-2016
+ * @link       http://averta.net
+
+*/
+
+function auxin_metabox_fields_custom_menu(){
+
+    $model          = new Auxin_Metabox_Model();
+    $model->id      = 'custom-menu';
+    $model->title   = __('Custom Menu', 'phlox');
+    $model->context = 'side';
+    $model->type    = array('page', 'service', 'faq');
+
+
+    // @TODO: wp-admin/nav-menus.php they used a similiar way for this starting line 664. it is better mj checks
+    // get list of nav menus
+    $nav_menus = wp_get_nav_menus();
+    $nav_menu_list   = array( '' => __('- no custom menu -', 'phlox') );
+
+    if( isset( $nav_menus ) && !empty( $nav_menus ) ) {
+
+         foreach( (array) $nav_menus as $_nav_menu ) {
+            $nav_menu_list[ esc_attr($_nav_menu->term_id) ] = $_nav_menu->name;
+        }
+    }
+
+    $model->fields= array(
+        "menu" => array(
+            'title'         => __('Menu', 'phlox'),
+            'description'   => __('Select one of the custom sidebars. You can create new ones in "Option panel > Tools > Sidebar Generator".', 'phlox'),
+            'id'            => 'sidebar-id',
+            'type'          => 'select',
+            'choices'       => $nav_menu_list
+        )
+    );
+
+    return $model;
+}

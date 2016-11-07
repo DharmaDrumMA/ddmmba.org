@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="47" height="38" viewBox="0 0 47 38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="thin_tail_arrow_medium" data-name="thin tail arrow medium" class="cls-1" d="M-2,40V-2H49V40H-2ZM47,0H0V38H47V0ZM23.5,5A13.5,13.5,0,1,1,10,18.5,13.5,13.5,0,0,1,23.5,5Zm0,24.812A11.312,11.312,0,1,0,12.187,18.5,11.312,11.312,0,0,0,23.5,29.812ZM18.031,18h1v1h1v1h1v1H22V12h3V25H24v1H23V25H22V24H21.031V23h-1V22h-1V21h-1V20h-1V17h1v1Zm8,2h1V19h1V18h1V17h1v3h-1v1h-1v1h-1v1h-1v1h-1V21h1V20Z"/>
+</svg>

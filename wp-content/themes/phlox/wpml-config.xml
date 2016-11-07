@@ -1,0 +1,126 @@
+<wpml-config>
+    <custom-fields>
+        <custom-field action="copy">quantity</custom-field>
+        <custom-field action="translate">custom-title</custom-field>
+        <custom-field action="copy">weight</custom-field>
+        <custom-field action="translate">custom-description</custom-field>
+        <custom-field action="ignore">date-added</custom-field>
+    </custom-fields>
+    <custom-types>
+        <custom-type translate="1">portfolio</custom-type>
+        <custom-type translate="1">axi_product</custom-type>
+        <custom-type translate="1">news</custom-type>
+        <custom-type translate="1">service</custom-type>
+        <custom-type translate="1">faq</custom-type>
+        <custom-type translate="1">staff</custom-type>
+        <custom-type translate="1">testimonial</custom-type>
+        <custom-type translate="1">pricetable</custom-type>
+    </custom-types>    
+    <taxonomies>
+        <taxonomy translate="1">portfolio-cat</taxonomy>
+        <taxonomy translate="1">portfolio-tag</taxonomy>
+        <taxonomy translate="1">product-category</taxonomy>
+        <taxonomy translate="1">product-tag</taxonomy>
+        <taxonomy translate="1">news-category</taxonomy>
+        <taxonomy translate="1">news-tag</taxonomy>
+        <taxonomy translate="1">service-category</taxonomy>
+        <taxonomy translate="1">faq-category</taxonomy>
+        <taxonomy translate="1">department</taxonomy>
+        <taxonomy translate="1">testimonial-category</taxonomy>
+    </taxonomies>    
+    <admin-texts>
+        <key name="lotus_formatted_options">
+            <key name="site_header_logo" />
+            <key name="site_header_logo_width" />
+            <key name="site_favicon_16" />
+            
+            <key name="content_typography[face]" />
+            <key name="content_typography[color]" />
+            <key name="main_title_typography[face]" />
+            <key name="main_title_typography[color]" />
+            <key name="page_title_typography[face]" />
+            <key name="page_title_typography[color]" />
+            <key name="stunning_typography[face]" />
+            <key name="stunning_typography[color]" />
+            <key name="header_menu_typography[face]" />
+            
+            <key name="facebook" />
+            <key name="twitter" />
+            <key name="gplus" />
+            <key name="dribble" />
+            <key name="youtube" />
+            <key name="vimeo" />
+            <key name="vimeo2" />
+            <key name="flicker" />
+            <key name="digg" />
+            <key name="stuble" />
+            <key name="lastfm" />
+            <key name="delicious" />
+            <key name="skype" />
+            <key name="linkedin" />
+            <key name="tumbler" />
+            <key name="rss" />
+            
+            <key name="topheader_message" />
+
+            <key name="blog_related_posts_title" />
+            <key name="blog_view_all_btn_link" />
+            <key name="news_related_posts_title" />
+            <key name="news_view_all_btn_link" />
+            
+            <key name="portfolio_related_items_title" />
+            <key name="portfolio_custom_meta_label1" />
+            <key name="portfolio_custom_meta_label2" />
+            <key name="portfolio_custom_meta_label3" />
+            <key name="portfolio_custom_meta_label4" />
+            <key name="portfolio_custom_meta_label5" />
+            <key name="portfolio_custom_meta_label6" />
+            <key name="portfolio_custom_meta_label7" />
+            <key name="portfolio_custom_meta_label8" />
+            <key name="portfolio_custom_meta_label9" />
+            
+            <key name="product_related_items_title" />
+            <key name="product_regular_price_label" />
+            <key name="product_buy_btn_label" />
+            <key name="product_custom_meta_label_0_1" />
+            <key name="product_custom_meta_label_0_2" />
+            <key name="product_custom_meta_label_0_3" />
+            <key name="product_custom_meta_label_0_4" />
+            <key name="product_custom_meta_label_0_5" />
+            <key name="product_custom_meta_label_0_6" />
+            <key name="product_custom_meta_label_0_7" />
+            <key name="product_custom_meta_label_0_8" />
+            <key name="product_custom_meta_label_0_9" />
+            <key name="product_custom_meta_label_0_10" />
+            
+            <key name="copyright" />
+        </key>
+        
+    </admin-texts>    
+    <language-switcher-settings>
+        <key name="icl_lang_sel_config">
+            <key name="font-current-normal">#444444</key>
+            <key name="font-current-hover">#000000</key>
+            <key name="background-current-normal">#ffffff</key>
+            <key name="background-current-hover">#eeeeee</key>
+            <key name="font-other-normal">#444444</key>
+            <key name="font-other-hover">#000000</key>
+            <key name="background-other-normal">#ffffff</key>
+            <key name="background-other-hover">#eeeeee</key>
+            <key name="border">#cdcdcd</key>
+        </key>
+        <key name="icl_lang_sel_footer_config">
+            <key name="font-current-normal">#dddddd</key>
+            <key name="font-current-hover">#333333</key>
+            <key name="background-current-normal">#3d3d3d</key>
+            <key name="background-current-hover">#3d3d3d</key>
+            <key name="font-other-normal">#888888</key>
+            <key name="font-other-hover">#888888</key>
+            <key name="background-other-normal">#1a1a1a</key>
+            <key name="background-other-hover">#3d3d3d</key>
+            <key name="border">#1a1a1a</key>
+        </key>    
+    </language-switcher-settings>    
+</wpml-config>
+
+

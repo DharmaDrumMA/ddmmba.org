@@ -1,0 +1,10 @@
+
+Version 1.5.3 / (26.09.2016)
+============================
+- [Improvement]: Extra readmore links no longer appear on archive pages.
+- [Fix]: Addressing an issue that prevents to render taxonomy page properly when grid or timeline layout is active.
+- [Fix]: Fixing some typos in file names
+
+Version 1.0.0 / (21.07.2016)
+============================
+- Initial release

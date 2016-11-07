@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="81" height="78" viewBox="0 0 81 78">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #cdcdcd;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path id="blog-content-length-2" class="cls-1" d="M5,48H76v1H5V48Zm0,8H60v1H5V56Zm0-4H76v1H5V52Zm0,8H76v1H5V60Zm0,8H76v1H5V68Zm0-4H76v1H5V64Zm0,8H60v1H5V72ZM-2-2H83V80H-2V-2ZM0,0H81V78H0V0ZM5,35H76v2H5V35ZM5,5H76V7H5V5ZM5,35V7H7V35H5Zm69,0V7h2V35H74ZM5,43H57v2H5V43ZM7,7L74,34.07V35L7,7.927V7ZM74,7L7,34.07V35L74,7.927V7Z"/>
+</svg>
