@@ -293,7 +293,7 @@ h1, h2, h3, h4, h5, h6 { color: #444; font-weight: 600; -ms-word-wrap: break-wor
 .main { background-color: #fff!important; position: relative; }
 .main-inner { position: relative; min-height: 600px; /* instead of sticky footer */ }
 .content { width: 100%; position: relative; }
-.pad { padding: 30px 30px 20px; }
+.pad { padding: 0px 0px 20px; }
 
 /* boxed */
 .boxed #wrapper { max-width: 1380px; margin: 0 auto;
@@ -575,7 +575,7 @@ box-shadow: 0 0 2px rgba(255,255,255,0.4);
  *  Section: Header
 /* ------------------------------------------------------------------------- */
 #header { background: #33363b; position: relative; padding-bottom: 60px; }
-#header .pad { padding-top: 30px; padding-bottom: 30px; }
+#header .pad { padding-left: 50px; padding-top: 0px; padding-bottom: 0px; }
 #header .container-inner { position: relative; }
 
 .site-title { font-size: 42px; font-weight: 600; letter-spacing: -0.5px; float: left; line-height: 60px; padding: 10px 0; }
@@ -1913,7 +1913,7 @@ li#wp-admin-bar-tc-hueman-help a {
 	/* header */
 	#header { padding-bottom: 0; }
 	.topbar-enabled #header { padding-top: 0; }
-	#header .pad { padding-top: 0; padding-bottom: 0; }
+	#header .pad { padding-left: 50px; padding-top: 0; padding-bottom: 0; }
 	.site-title { padding: 30px 0; width: 100%; float: none; line-height: 50px; }
 	.site-title a { text-align: center; }
 	.toggle-search { right: auto; left: 0; top: 0;
