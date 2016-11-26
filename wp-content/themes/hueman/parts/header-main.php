@@ -20,14 +20,7 @@
             </div><!--/#header-ads-->
           <?php endif; ?>
 
-        </div>
-
-      <?php else :  ?>
-          <a href="<?php echo home_url('/'); ?>" rel="home">
-            <img class="site-image" src="<?php echo $_header_img_src; ?>" alt="<?php echo get_bloginfo('name'); ?>">
-          </a>
-      <?php endif; ?>
-
+<div style="float:right">
       <?php if ( hu_has_nav_menu('header') ): ?>
         <nav class="nav-container group" id="nav-header">
           <div class="nav-toggle"><i class="fa fa-bars"></i></div>
@@ -47,6 +40,18 @@
           </div>
         </nav><!--/#nav-header-->
       <?php endif; ?>
+</div>
+
+        </div>
+
+      <?php else :  ?>
+          <a href="<?php echo home_url('/'); ?>" rel="home">
+            <img class="site-image" src="<?php echo $_header_img_src; ?>" alt="<?php echo get_bloginfo('name'); ?>">
+          </a>
+      <?php endif; ?>
+
+<?php masterslider(1); ?>
+
 
     </div><!--/.container-inner-->
   </div><!--/.container-->
