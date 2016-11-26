@@ -40,15 +40,13 @@
                     'menu_class'=>'nav container-inner group',
                     'container'=>'',
                     'menu_id' => '',
-                    'fallback_cb'=> 'hu_page_menu'
+                    'fallback_cb'=> is_multisite() ? '' : 'hu_page_menu'
                   )
               );
             ?>
           </div>
         </nav><!--/#nav-header-->
       <?php endif; ?>
-
-<?php echo get_masterslider( 1 ); ?>
 
     </div><!--/.container-inner-->
   </div><!--/.container-->

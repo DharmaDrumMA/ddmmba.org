@@ -25,4 +25,3 @@
       <div class="main">
         <div class="main-inner group">
           <?php do_action('__before_content') ; ?>
-
