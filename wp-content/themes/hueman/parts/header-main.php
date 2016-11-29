@@ -50,8 +50,9 @@
           </a>
       <?php endif; ?>
 
-<?php masterslider(1); ?>
-
+<?php 
+    echo do_shortcode("[metaslider id=18]"); 
+?>
 
     </div><!--/.container-inner-->
   </div><!--/.container-->
